@@ -16,6 +16,14 @@
     color: #ac3d3d;
 }
 
+.html_tag::before{
+    content: "<";
+}
+
+.html_tag::after{
+    content: ">";
+}
+
 .tag{
     background: rgba(83, 105, 245, 0.16);
     color: #0299c6;
